@@ -13,8 +13,8 @@ export default function About () {
         <p><b>Name:</b> Emil Nuutinen <br />
           <b>Location:</b> Turku, Finland <br />
           <b>Education:</b> B.B.A. Business Information Technology, Turku University of Applied Sciences <br />
-          <b>Interests:</b> Data Science, Machine Learning, Software Development, Privacy, Reading, Gym, Gaming & Drinking too much coffee <br />
-          <b>Contact:</b> hello@emilnuutinen.com
+          <b>Interests:</b> Data Science, Software Development, Linux, Privacy, Reading, Gym, Gaming & Drinking too much coffee <br />
+          <b>Contact:</b> hello@emilnuutinen.com & <a href='https://github.com/emilnuutinen'>Github</a>
         </p>
 
         <h2>Long version</h2>
@@ -39,13 +39,6 @@ export default function About () {
           <li>Python [The basic scientific stack]</li>
           <li>JavaScript [React, Next.js, Node.js]</li>
           <li>HTML & CSS</li>
-        </ul>
-
-        <h3>Social</h3>
-        <p>I'm not that active on social media, but you can find me on:</p>
-        <ul>
-          <li><a href='https://twitter.com/EmilNuutinen'>Twitter</a></li>
-          <li><a href='https://github.com/emilnuutinen'>Github</a></li>
         </ul>
       </main>
     </>
