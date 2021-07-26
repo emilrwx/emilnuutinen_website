@@ -1,19 +1,23 @@
-body[data-theme="light"] {
-  --bg: #fdf0ed;
-  --textNormal: rgba(0, 0, 0, 0.85);
-  --textTitle: #b57614;
-  --textLink: #8f3f71;
-  --headerTag: #9d0006;
-  --hr: #98971a;
+@media (prefers-color-scheme: dark) {
+  body {
+    --bg: #0e141b;
+    --textNormal: #b2b2a2;
+    --textTitle: #d79921;
+    --textLink: #b16286;
+    --headerTag: #cc241d;
+    --hr: #98971a;
+  }
 }
 
-body[data-theme="dark"] {
-  --bg: #0e141b;
-  --textNormal: #b2b2a2;
-  --textTitle: #d79921;
-  --textLink: #b16286;
-  --headerTag: #cc241d;
-  --hr: #98971a;
+@media (prefers-color-scheme: light) {
+  body {
+    --bg: #fbf1c7;
+    --textNormal: #111111;
+    --textTitle: #b57614;
+    --textLink: #8f3f71;
+    --headerTag: #9d0006;
+    --hr: #98971a;
+  }
 }
 
 html {
@@ -113,36 +117,42 @@ h1::before {
   content: "# ";
   color: var(--headerTag);
   text-indent: -5px;
+  font-weight: 400;
 }
 
 h2::before {
   content: "## ";
   color: var(--headerTag);
   text-indent: -5px;
+  font-weight: 400;
 }
 
 h3::before {
   content: "### ";
   color: var(--headerTag);
   text-indent: -5px;
+  font-weight: 400;
 }
 
 h4::before {
   content: "#### ";
   color: var(--headerTag);
   text-indent: -5px;
+  font-weight: 400;
 }
 
 h5::before {
   content: "##### ";
   color: var(--headerTag);
   text-indent: -5px;
+  font-weight: 400;
 }
 
 h6::before {
   content: "###### ";
   color: var(--headerTag);
   text-indent: -5px;
+  font-weight: 400;
 }
 
 sup {

@@ -1,10 +1,5 @@
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
-
-const ThemeToggle = dynamic(() => import('../components/themeToggle'), {
-  ssr: false
-})
 
 export default function Header () {
   return (
@@ -18,8 +13,6 @@ export default function Header () {
           <Link href='/about'>
             About
           </Link>
-          &nbsp;-&nbsp;
-          <ThemeToggle />
           &nbsp;-&nbsp;
           <Link href='/blog'>
             Blog
