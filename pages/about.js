@@ -22,22 +22,27 @@ export default function About () {
 
         <p> I graduated with a degree in <b>Business Information Technology</b> in December 2020 and I'm going to start my C.S. Master's in September 2021. My goal is to work in research some day.</p>
 
-        <p>I'm interested in <b>NLP</b> generally and in privacy conserving software solutions. I want to contribute in improving <b>finnish NLP</b> solutions. I'm also interested in <b>Computer Vision</b> and <b>Robotics</b>. It's hard to focus on one area when there are so many interesting problems in the world.</p>
+        <p>Professionally I'm interested in <b>data science</b> generally and in privacy respecting software solutions. I'm concerned about the current state of software and privacy. I believe we can build innovative data-oriented products without violating the privacy of the users and I want to contribute into building them.</p>
 
-        <h3>What I enjoy doing?</h3>
-        <ul>
-          <li>Research an interesting problem.</li>
-          <li>Collect data about it & find useful insights from that data.</li>
-          <li>Write a solution to that problem. (Usually with Python)</li>
-          <li>Learn new skills to do those three things better.</li>
-        </ul>
+        <p>I'm also interested in <b>robotics</b> and <b>self-driving cars</b>. I would love to see a future where humans don't drive anymore and robots handle all the task that are repetative, dangerous or need precision that we humans are not capable of.</p>
 
-        <p>I also enjoy fiddling with frontend projects. I try new things on this website weekly. I have fallen in love with algorithms too lately. I enjoy coding challenges and implementing random algorithms that I bump into.</p>
+        <p>On my freetime I enjoy exploring Unix-based operating systems. I installed my first Linux in 2004. For the last 2 years I have used Arch Linux as my daily driver. I value privacy and customizability so Linux is a good fit for me. In the near future I'm going to dive into BSD too, they seem more robust and secure than Linux distros. BSD has been a huge interest for me for some time and I'm going to try FreeBSD soon.</p>
+
+        <p>I really enjoy tools that stay out of the way and <i>let you do the things you want in the way you want</i>. That is why I love using Linux, use mostly CLI-tools, use i3 as my VM on Arch, use Vim and markdown-files as my note-taking and task-management tools, etc. I'm also a big advocate for offline-first tools. I want my tools to open instantly and I want to know exactly where my data lives and I want be in a full control of it.</p>
+
+        <p>When I'm not on my computer over-engineering everything, I like to read alot. I read mostly non-fiction books. And I love personal blogs. I'm not on social media, but I follow many blogs. Reading through my RSS feeds is a big part of my morning routine. </p>
+
+        <p>I also love long walks and sunsets, but rainy days are my favorites. </p>
+
+        <p>I like to keep myself physically active and most of the time I'll do it at the gym. I also want to start bouldering.</p>
+
+        <p>I'm also a bit of a foodie. My greatest weaknesses are coffee, craft beers, tapas and pizzas.</p>
 
         <h3>Most used technologies</h3>
         <ul>
           <li>Python [The basic scientific stack]</li>
           <li>JavaScript [React, Next.js, Node.js]</li>
+          <li>Bash</li>
           <li>HTML & CSS</li>
         </ul>
 
