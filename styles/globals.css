@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
   body {
-    --bg: #0e141b;
-    --textNormal: #b2b2a2;
+    --bg: #111111;
+    --textNormal: #a0a090;
     --textTitle: #d79921;
     --textLink: #b16286;
     --headerTag: #cc241d;
