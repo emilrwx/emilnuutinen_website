@@ -26,7 +26,7 @@ export default function About () {
 
         <p>I'm also interested in <b>robotics</b> and <b>self-driving cars</b>. I would love to see a future where humans don't drive anymore and robots handle all the task that are repetitive, dangerous or need precision that we humans are not capable of.</p>
 
-        <p>On my freetime I enjoy exploring Unix-based operating systems. I installed my first Linux in 2004. For the last 2 years I have used Arch Linux as my daily driver. I value privacy and customizability so Linux is a good fit for me. In the near future I'm going to dive into BSD too, they seem more robust and secure than Linux distros. BSD has been a huge interest for me for some time and I'm going to try FreeBSD soon.</p>
+        <p>On my freetime I enjoy exploring Unix-based operating systems. I installed my first Linux in 2004. For the last 2 years I have used Arch Linux as my daily driver. I value privacy and customizability so Linux is a good fit for me. I like how using Arch as a daily driver forces you to learn how Linux actually works.</p>
 
       <p>I really enjoy tools that stay out of the way and <i>let you do the things you want in the way you want</i>. <br /> 
         That is why I:</p>
