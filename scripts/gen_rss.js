@@ -24,7 +24,7 @@ async function generate () {
       feed.item({
         title: frontmatter.data.title,
         description: frontmatter.content,
-        url: '/posts/' + name.replace(/\.md?/, ''),
+        url: 'https://emilnuutinen.com/posts/' + name.replace(/\.md?/, ''),
         date: frontmatter.data.date
       })
     })
