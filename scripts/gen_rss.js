@@ -1,3 +1,4 @@
+const marked = require('marked')
 const { promises: fs } = require('fs')
 const path = require('path')
 const RSS = require('rss')
@@ -21,11 +22,9 @@ async function generate () {
       )
       const frontmatter = matter(content)
 
-      const formattedContent = '<pre>' + frontmatter.content + '</pre>'
-
       feed.item({
         title: frontmatter.data.title,
-        description: formattedContent,
+        description: marked(frontmatter.content),
         url: 'https://emilnuutinen.com/posts/' + name.replace(/\.md?/, ''),
         date: frontmatter.data.date
       })
