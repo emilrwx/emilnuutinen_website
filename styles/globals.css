@@ -1,8 +1,7 @@
 @media (prefers-color-scheme: dark) {
   body {
     --bg: #111111;
-    --border: #282828;
-    --codeBg: #14161b;
+    --codeBg: #000000;
     --textNormal: #a0a090;
     --textTitle: #d79921;
     --textLink: #b16286;
@@ -14,8 +13,7 @@
 @media (prefers-color-scheme: light) {
   body {
     --bg: #fff1e5;
-    --border: #282828;
-    --codeBg: #14161b;
+    --codeBg: #111111;
     --textNormal: #33302e;
     --textTitle: #111;
     --textLink: #771451;
@@ -78,16 +76,19 @@ b {
   font-weight: 800;
 }
 
-code {
+pre code {
+  display: block;
+  background: none;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  max-width: 100%;
   color: var(--hr);
   background-color: var(--codeBg);
-  display: inline-block;
-  box-sizing: border-box;
-  border: 2px solid var(--border);
-  border-radius: 5px;
-  padding: 10px;
-  overflow: auto;
+  border-radius: 10px;
+  padding: 15px;
 }
+
 
 h1,
 h2,
